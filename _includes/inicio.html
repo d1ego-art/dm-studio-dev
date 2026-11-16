@@ -110,12 +110,16 @@
     <ul class="team">
       {%- for p in site.data.sitio.equipo %}
       {%- capture rol %}rol_{{ lang }}{% endcapture %}
+      {%- assign link = 'https://github.com/' | append: p.github -%}
+      {%- if p.web %}{% assign link = p.web %}{% endif -%}
+      {%- assign etiqueta = '@' | append: p.github -%}
+      {%- if p.web %}{% assign etiqueta = p.web | remove: 'https://' | remove: 'http://' | split: '/' | first %}{% endif %}
       <li class="person reveal">
-        <img src="https://github.com/{{ p.github }}.png?size=160" alt="" width="80" height="80" loading="lazy">
+        <img src="{% if p.foto %}{{ p.foto }}{% else %}https://github.com/{{ p.github }}.png?size=160{% endif %}" alt="" width="80" height="80" loading="lazy">
         <div>
-          <h3>{{ p.nombre }}</h3>
+          <h3><a href="{{ link }}" target="_blank" rel="noopener">{{ p.nombre }}</a></h3>
           <p class="small muted">{{ p[rol] }}</p>
-          <a class="mono small" href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">@{{ p.github }}</a>
+          <a class="mono small" href="{{ link }}" target="_blank" rel="noopener">{{ etiqueta }}</a>
         </div>
       </li>
       {%- endfor %}

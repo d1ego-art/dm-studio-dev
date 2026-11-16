@@ -22,7 +22,7 @@ Portafolio y captación de clientes de la agencia de desarrollo web de los herma
   - https://riidei.umayor.cl/index.php/riidei (OJS)
   - https://kateatenas.com/ (en curso: e-commerce de cursos grabados, tipo Udemy)
 - **Equipo:** ambos socios con enlace a GitHub.
-- **Contacto (Web3Forms, key exclusiva de este sitio [PENDIENTE: key y correo]):** nombre o empresa, email, tipo de servicio, detalles. **Sin precios ni campo de presupuesto**: solo contacto directo con la organización.
+- **Contacto (Web3Forms, key exclusiva de este sitio, correo `dmstudio.dev.cl@gmail.com`):** nombre o empresa, email, tipo de servicio, detalles. **Sin precios ni campo de presupuesto**: solo contacto directo con la organización.
 
 ## Estado y estructura (2026-11-16)
 - Sitio de una página por idioma: `index.html` (es) y `en/index.html` (en). Ambos incluyen `_includes/inicio.html`; el idioma sale de `page.lang`.
@@ -32,6 +32,7 @@ Portafolio y captación de clientes de la agencia de desarrollo web de los herma
 - Acento frío `--accent: #5fd3e6`; el rojo del logo solo aparece en el enlace a dmstudio.cl.
 - Avatares del equipo: `github.com/<usuario>.png` (si suben foto a GitHub, se actualiza sola).
 - Local: configuración `dmstudio-dev` en `C:\DesarrolloWeb\.claude\launch.json` → http://localhost:4011/dm-studio-dev/
-- [PENDIENTE] Key de Web3Forms y correo de este sitio (`_data/sitio.yml`). Sin key, el formulario muestra un aviso.
-- [PENDIENTE] Confirmar nombres y roles del equipo (`_data/sitio.yml`): se asumió "Diego Morales" para `d1ego-art`.
-- [PENDIENTE] Activar GitHub Pages en el repo (Settings → Pages → rama `main`, carpeta raíz).
+- Publicado en GitHub Pages (rama `main`, raíz) desde el 2026-11-16: https://dmstudio-dev.github.io/dm-studio-dev/
+- Web3Forms con key propia y equipo confirmado (Daniel: WordPress y OJS; Diego: arquitectura y 3D) en `_data/sitio.yml`.
+- [PENDIENTE] Enviar un mensaje de prueba por el formulario publicado y confirmar que llega al correo.
+- [PENDIENTE] Al comprar `dmstudio.dev`: `url: "https://dmstudio.dev"`, `baseurl: ""` en `_config.yml`, dominio en Settings → Pages, y actualizar `dev_url` en dmstudio.cl.

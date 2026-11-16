@@ -3,9 +3,13 @@
 web3forms_key: "35c33841-2d59-4fd4-aefc-21aa91dcc96e"
 email: "dmstudio.dev.cl@gmail.com"
 cl_url: "https://dmstudio-cl.github.io/dm-studio-cl/"
+# equipo: "web" (opcional) es el sitio personal; si existe, todos los enlaces de esa persona apuntan ahí.
+# "foto" (opcional) reemplaza el avatar de GitHub.
 equipo:
   - nombre: Daniel Morales
     github: danielmoralesc
+    web: https://danielmoralesc.github.io/
+    foto: https://danielmoralesc.github.io/images/profile-daniel.jpg
     rol_es: Desarrollo WordPress y plataformas OJS
     rol_en: WordPress development and OJS platforms
   - nombre: Diego Morales

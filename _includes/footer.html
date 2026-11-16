@@ -8,7 +8,11 @@
     <div>
       <h2 class="eyebrow">{{ t.nav_equipo }}</h2>
       {%- for p in s.equipo %}
-      <a href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">github.com/{{ p.github }}</a>
+      {%- if p.web %}
+      <a href="{{ p.web }}" target="_blank" rel="noopener">{{ p.nombre }} · {{ p.web | remove: 'https://' | remove: 'http://' | split: '/' | first }}</a>
+      {%- else %}
+      <a href="https://github.com/{{ p.github }}" target="_blank" rel="noopener">{{ p.nombre }} · github.com/{{ p.github }}</a>
+      {%- endif %}
       {%- endfor %}
       {%- if s.email != "" %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}
     </div>
