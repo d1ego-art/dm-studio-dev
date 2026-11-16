@@ -1,0 +1,38 @@
+# DM Studio · Dev — configuración Jekyll (compatible con GitHub Pages)
+title: DM Studio Dev
+description: >-
+  Estudio de desarrollo web en Chile: WordPress a medida, revistas científicas
+  con OJS/PKP, e-commerce, sitios estáticos de alto rendimiento y visualización 3D.
+lang: es
+locale: es_CL
+
+# Mientras no exista el dominio dmstudio.dev, el sitio vive en
+# https://dmstudio-dev.github.io/dm-studio-dev/ → baseurl "/dm-studio-dev".
+# Al conectar el dominio: url "https://dmstudio.dev" y baseurl "".
+url: "https://dmstudio-dev.github.io"
+baseurl: "/dm-studio-dev"
+
+permalink: pretty
+markdown: kramdown
+timezone: America/Santiago
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Proyectos del portafolio: solo datos (se muestran como tarjetas, sin página propia).
+collections:
+  proyectos:
+    output: false
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .jekyll-cache

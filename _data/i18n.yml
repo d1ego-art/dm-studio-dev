@@ -1,0 +1,163 @@
+# Textos de interfaz por idioma. Las páginas usan page.lang ("es" o "en").
+es:
+  skip: Saltar al contenido
+  menu: Abrir menú
+  nav_servicios: Servicios
+  nav_trabajo: Trabajo
+  nav_equipo: Equipo
+  nav_contacto: Contacto
+  otro_idioma: English
+  otro_idioma_corto: EN
+  hero_eyebrow: Estudio de desarrollo web · Chile
+  hero_titulo: Sitios que <em>funcionan</em>, plataformas que duran.
+  hero_texto: >-
+    Diseñamos y desarrollamos sitios WordPress a medida, revistas científicas con OJS,
+    tiendas en línea y experiencias 3D en el navegador. Código propio, rápido y mantenible.
+  hero_cta: Cuéntanos tu proyecto
+  hero_cta2: Ver trabajos
+  servicios_eyebrow: Servicios
+  servicios_titulo: Lo que hacemos
+  servicios_texto: Proyectos completos o soporte puntual. Siempre con código ordenado y documentado.
+  trabajo_eyebrow: Trabajo
+  trabajo_titulo: Proyectos recientes
+  trabajo_texto: Una muestra de sitios y plataformas que construimos y mantenemos.
+  todos: Todos
+  desafio: Desafío
+  stack: Stack
+  ver_sitio: Ver sitio
+  en_curso: En curso
+  proceso_eyebrow: Cómo trabajamos
+  proceso_titulo: Del primer mensaje a producción
+  equipo_eyebrow: Equipo
+  equipo_titulo: Dos hermanos, un estudio
+  equipo_texto: >-
+    Somos un estudio pequeño a propósito: hablas directo con quienes escriben el código.
+    Compartimos marca con DM Studio, nuestro taller de mobiliario de autor.
+  contacto_eyebrow: Contacto
+  contacto_titulo: ¿Tienes un proyecto en mente?
+  contacto_texto: Escríbenos con algunos detalles y te respondemos en uno o dos días hábiles.
+  f_nombre: Nombre o empresa
+  f_email: Email
+  f_servicio: Tipo de servicio
+  f_servicio_elegir: Elige una opción
+  f_otro: Otro
+  f_detalles: Detalles del proyecto
+  f_detalles_ph: Qué necesitas, plazos, sitio actual si existe…
+  f_enviar: Enviar mensaje
+  f_ok: ¡Gracias! Te responderemos a la brevedad.
+  f_sin_config: El formulario se activará pronto. Mientras tanto, escríbenos por GitHub.
+  f_enviando: Enviando…
+  f_error: No pudimos enviar el formulario. Inténtalo de nuevo.
+  f_sin_red: Sin conexión. Revisa tu internet e inténtalo de nuevo.
+  f_asunto: Nuevo contacto desde dmstudio.dev
+  hermano: Estudio hermano
+  hermano_texto: Mobiliario de autor · Configurador 3D
+  footer: Desarrollo web hecho en Chile.
+  e404_titulo: Página no encontrada
+  e404_texto: La dirección no existe o cambió.
+  e404_volver: Volver al inicio
+  terminal_ok: listo
+  terminal:
+    - ["wordpress", "   temas y bloques propios"]
+    - ["ojs/pkp", "     revistas científicas"]
+    - ["woocommerce", " tiendas y cursos"]
+    - ["jekyll", "      sitios estáticos"]
+    - ["three.js", "    visualización 3D"]
+en:
+  skip: Skip to content
+  menu: Open menu
+  nav_servicios: Services
+  nav_trabajo: Work
+  nav_equipo: Team
+  nav_contacto: Contact
+  otro_idioma: Español
+  otro_idioma_corto: ES
+  hero_eyebrow: Web development studio · Chile
+  hero_titulo: Websites that <em>work</em>, platforms that last.
+  hero_texto: >-
+    We design and build custom WordPress sites, scientific journals on OJS,
+    online stores and 3D experiences in the browser. Our own code: fast and maintainable.
+  hero_cta: Tell us about your project
+  hero_cta2: See our work
+  servicios_eyebrow: Services
+  servicios_titulo: What we do
+  servicios_texto: Full projects or targeted support. Always with clean, documented code.
+  trabajo_eyebrow: Work
+  trabajo_titulo: Recent projects
+  trabajo_texto: A selection of sites and platforms we have built and maintain.
+  todos: All
+  desafio: Challenge
+  stack: Stack
+  ver_sitio: Visit site
+  en_curso: In progress
+  proceso_eyebrow: How we work
+  proceso_titulo: From first message to production
+  equipo_eyebrow: Team
+  equipo_titulo: Two brothers, one studio
+  equipo_texto: >-
+    We are small on purpose: you talk directly to the people writing the code.
+    We share our brand with DM Studio, our bespoke furniture workshop.
+  contacto_eyebrow: Contact
+  contacto_titulo: Have a project in mind?
+  contacto_texto: Send us a few details and we will reply within one or two business days.
+  f_nombre: Name or company
+  f_email: Email
+  f_servicio: Type of service
+  f_servicio_elegir: Choose an option
+  f_otro: Other
+  f_detalles: Project details
+  f_detalles_ph: What you need, timeline, current site if any…
+  f_enviar: Send message
+  f_ok: Thank you! We will get back to you soon.
+  f_sin_config: The form will be enabled soon. Meanwhile, reach us on GitHub.
+  f_enviando: Sending…
+  f_error: We could not send the form. Please try again.
+  f_sin_red: No connection. Check your internet and try again.
+  f_asunto: New contact from dmstudio.dev
+  hermano: Sister studio
+  hermano_texto: Bespoke furniture · 3D configurator
+  footer: Web development made in Chile.
+  e404_titulo: Page not found
+  e404_texto: This address does not exist or has changed.
+  e404_volver: Back to home
+  terminal_ok: done
+  terminal:
+    - ["wordpress", "   custom themes and blocks"]
+    - ["ojs/pkp", "     scientific journals"]
+    - ["woocommerce", " stores and courses"]
+    - ["jekyll", "      static sites"]
+    - ["three.js", "    3D visualization"]
+
+# Servicios (mismo orden en ambos idiomas)
+servicios:
+  - codigo: WP
+    es: { titulo: WordPress a medida, texto: "Temas y bloques propios, sin constructores pesados. Membresías, multilingüe y migraciones." }
+    en: { titulo: Custom WordPress, texto: "Our own themes and blocks, no heavy page builders. Memberships, multilingual sites and migrations." }
+  - codigo: OJS
+    es: { titulo: Revistas científicas OJS/PKP, texto: "Instalación, actualización, temas e indexación de revistas académicas en Open Journal Systems." }
+    en: { titulo: Scientific journals on OJS/PKP, texto: "Installation, upgrades, theming and indexing for academic journals on Open Journal Systems." }
+  - codigo: SHOP
+    es: { titulo: E-commerce y cursos, texto: "Tiendas WooCommerce y plataformas de cursos grabados con pagos en Chile y el extranjero." }
+    en: { titulo: E-commerce and courses, texto: "WooCommerce stores and recorded-course platforms with payments in Chile and abroad." }
+  - codigo: FAST
+    es: { titulo: Sitios estáticos rápidos, texto: "Jekyll y GitHub Pages: sin servidor que mantener, seguros y con carga casi instantánea." }
+    en: { titulo: Fast static sites, texto: "Jekyll and GitHub Pages: no server to maintain, secure and nearly instant to load." }
+  - codigo: 3D
+    es: { titulo: Visualización 3D web, texto: "Configuradores y visores con Three.js que corren en cualquier navegador, también en el celular." }
+    en: { titulo: Web 3D visualization, texto: "Configurators and viewers built with Three.js that run in any browser, including phones." }
+
+proceso:
+  - es: { titulo: Conversación, texto: "Entendemos qué necesitas y qué existe hoy." }
+    en: { titulo: Conversation, texto: "We learn what you need and what exists today." }
+  - es: { titulo: Propuesta, texto: "Alcance, plazos y tecnología, por escrito." }
+    en: { titulo: Proposal, texto: "Scope, timeline and technology, in writing." }
+  - es: { titulo: Desarrollo, texto: "Avances visibles en un entorno de pruebas." }
+    en: { titulo: Development, texto: "Visible progress on a staging environment." }
+  - es: { titulo: Lanzamiento y soporte, texto: "Publicamos, documentamos y seguimos disponibles." }
+    en: { titulo: Launch and support, texto: "We publish, document and stay available." }
+
+categorias:
+  - { id: wordpress, es: WordPress, en: WordPress }
+  - { id: ojs, es: PKP / OJS, en: PKP / OJS }
+  - { id: ecommerce, es: E-commerce, en: E-commerce }
+  - { id: 3d, es: Web 3D / Custom, en: Web 3D / Custom }

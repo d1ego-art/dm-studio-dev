@@ -1,0 +1,22 @@
+{%- assign home = '/' -%}{%- if lang == 'en' -%}{%- assign home = '/en/' -%}{%- endif -%}
+{%- assign other = page.alt_en -%}{%- if lang == 'en' -%}{%- assign other = page.alt_es -%}{%- endif -%}
+{%- assign other_lang = 'en' -%}{%- if lang == 'en' -%}{%- assign other_lang = 'es' -%}{%- endif -%}
+<header class="site-header">
+  <a class="brand" href="{{ home | relative_url }}" aria-label="DM Studio Dev">
+    <img src="{{ '/assets/img/marca/logo-192.webp' | relative_url }}" alt="" width="36" height="36">
+    <span>DM<b>STUDIO</b><i>.dev</i></span>
+  </a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="{{ t.menu }}">
+    <span></span><span></span>
+  </button>
+  <nav id="nav" class="nav">
+    <a href="{{ home | relative_url }}#servicios">{{ t.nav_servicios }}</a>
+    <a href="{{ home | relative_url }}#trabajo">{{ t.nav_trabajo }}</a>
+    <a href="{{ home | relative_url }}#equipo">{{ t.nav_equipo }}</a>
+    <a href="{{ site.data.sitio.cl_url }}" class="nav-sibling" target="_blank" rel="noopener">dmstudio<b>.cl</b> ↗</a>
+    {%- if other %}
+    <a href="{{ other | relative_url }}" class="nav-lang" hreflang="{{ other_lang }}" lang="{{ other_lang }}" aria-label="{{ t.otro_idioma }}">{{ t.otro_idioma_corto }}</a>
+    {%- endif %}
+    <a href="{{ home | relative_url }}#contacto" class="nav-cta">{{ t.nav_contacto }}</a>
+  </nav>
+</header>

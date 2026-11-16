@@ -1,0 +1,14 @@
+# Datos editables del sitio.
+# Clave pública de Web3Forms para este sitio (distinta a la de dmstudio.cl). Vacía = el formulario avisa que aún no está activo.
+web3forms_key: "35c33841-2d59-4fd4-aefc-21aa91dcc96e"
+email: "dmstudio.dev.cl@gmail.com"
+cl_url: "https://dmstudio-cl.github.io/dm-studio-cl/"
+equipo:
+  - nombre: Daniel Morales
+    github: danielmoralesc
+    rol_es: Desarrollo WordPress y plataformas OJS
+    rol_en: WordPress development and OJS platforms
+  - nombre: Diego Morales
+    github: d1ego-art
+    rol_es: Desarrollo, arquitectura y 3D
+    rol_en: Development, architecture and 3D

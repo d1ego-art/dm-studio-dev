@@ -1,0 +1,15 @@
+---
+lang: es
+title: Página no encontrada
+permalink: /404.html
+sitemap: false
+---
+<section class="section wrap e404">
+  <p class="eyebrow mono">404</p>
+  <h1>{{ site.data.i18n.es.e404_titulo }}</h1>
+  <p class="muted">{{ site.data.i18n.es.e404_texto }} <span lang="en">· {{ site.data.i18n.en.e404_texto }}</span></p>
+  <div class="actions">
+    <a class="btn btn-primary" href="{{ '/' | relative_url }}">{{ site.data.i18n.es.e404_volver }}</a>
+    <a class="btn" href="{{ '/en/' | relative_url }}" lang="en">{{ site.data.i18n.en.e404_volver }}</a>
+  </div>
+</section>
